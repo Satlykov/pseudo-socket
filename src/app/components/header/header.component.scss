@@ -1,0 +1,17 @@
+h1 {
+  text-align: center;
+}
+
+.inputs-container {
+  display: flex;
+  justify-content: center;
+
+  label {
+    margin-left: 5px;
+  }
+
+  .additional-ids {
+    width: 400px;
+  }
+}
+
