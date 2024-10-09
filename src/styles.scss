@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+table {
+  .id-cell {
+    width: 100px;
+  }
+
+  .int-cell {
+    width: 300px;
+  }
+
+  .float-cell {
+    width: 300px;
+  }
+
+  .color-cell {
+    width: 150px;
+  }
+
+  .child-cell {
+    width: 300px;
+  }
+}
