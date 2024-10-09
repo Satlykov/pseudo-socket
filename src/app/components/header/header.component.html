@@ -1,0 +1,19 @@
+<h1>Pseudo socket</h1>
+<div class="inputs-container">
+  <div>
+    <label>
+      Timer (ms):
+      <input type="number" step="1" [value]="interval" (change)="onUpdateInterval($event)">
+    </label>
+    <label>
+      Array size:
+      <input type="number" step="1"  [value]="dataSize" (change)="onUpdateDataSize($event)">
+    </label>
+  </div>
+  <div>
+    <label>
+      Additional array ids:
+      <input class="additional-ids" type="text" (input)="onUpdateAdditionalIds($event)">
+    </label>
+  </div>
+</div>
