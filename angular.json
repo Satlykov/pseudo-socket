@@ -25,8 +25,9 @@
 						"inlineStyleLanguage": "scss",
 						"assets": ["src/favicon.ico", "src/assets"],
 						"styles": ["src/styles.scss"],
-						"scripts": []
-					},
+            "scripts": [],
+            "webWorkerTsConfig": "tsconfig.worker.json"
+          },
 					"configurations": {
 						"production": {
 							"budgets": [
@@ -80,8 +81,9 @@
 						"inlineStyleLanguage": "scss",
 						"assets": ["src/favicon.ico", "src/assets"],
 						"styles": ["src/styles.scss"],
-						"scripts": []
-					}
+            "scripts": [],
+            "webWorkerTsConfig": "tsconfig.worker.json"
+          }
 				},
 				"lint": {
 					"builder": "@angular-eslint/builder:lint",
