@@ -1,0 +1,39 @@
+# Ignore Angular build outputs
+dist/
+build/
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore environment files
+src/environments/
+
+# Ignore auto-generated files from Angular CLI
+src/**/*.ngfactory.ts
+src/**/*.ngsummary.json
+src/**/*.ngstyle.ts
+
+# Ignore test coverage output
+coverage/
+
+# Ignore compiled files (JS/TS)
+*.js
+*.d.ts
+*.min.js
+
+# Ignore IDE settings
+.vscode/
+.idea/
+
+# Ignore git and other version control files
+.git/
+.gitignore
+
+# Ignore Prettier configuration itself
+.prettierrc
+.prettierignore
+
+# Ignore optional lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
