@@ -73,6 +73,10 @@
 						"browserTarget": "pseudo-soket:build"
 					}
 				},
+        "test": {
+          "builder": "@angular-builders/jest:run",
+          "options": {}
+        },
 				"lint": {
 					"builder": "@angular-eslint/builder:lint",
 					"options": {
